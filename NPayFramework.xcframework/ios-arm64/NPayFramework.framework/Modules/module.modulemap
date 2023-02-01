@@ -1,0 +1,11 @@
+framework module NPayFramework {
+  umbrella header "NPayFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module NPayFramework.Swift {
+  header "NPayFramework-Swift.h"
+  requires objc
+}

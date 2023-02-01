@@ -1,0 +1,2411 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NPayFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NPayFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NPayFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NPayFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NPayFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NPayFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NPayFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Actions",
+        "printedName": "Actions",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "LOGIN",
+            "printedName": "LOGIN",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13NPayFramework7ActionsV5LOGINSSvpZ",
+            "mangledName": "$s13NPayFramework7ActionsV5LOGINSSvpZ",
+            "moduleName": "NPayFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13NPayFramework7ActionsV5LOGINSSvgZ",
+                "mangledName": "$s13NPayFramework7ActionsV5LOGINSSvgZ",
+                "moduleName": "NPayFramework",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "OPEN_WALLET",
+            "printedName": "OPEN_WALLET",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13NPayFramework7ActionsV11OPEN_WALLETSSvpZ",
+            "mangledName": "$s13NPayFramework7ActionsV11OPEN_WALLETSSvpZ",
+            "moduleName": "NPayFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13NPayFramework7ActionsV11OPEN_WALLETSSvgZ",
+                "mangledName": "$s13NPayFramework7ActionsV11OPEN_WALLETSSvgZ",
+                "moduleName": "NPayFramework",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "DEPOSIT",
+            "printedName": "DEPOSIT",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13NPayFramework7ActionsV7DEPOSITSSvpZ",
+            "mangledName": "$s13NPayFramework7ActionsV7DEPOSITSSvpZ",
+            "moduleName": "NPayFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13NPayFramework7ActionsV7DEPOSITSSvgZ",
+                "mangledName": "$s13NPayFramework7ActionsV7DEPOSITSSvgZ",
+                "moduleName": "NPayFramework",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "TRANSFER",
+            "printedName": "TRANSFER",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13NPayFramework7ActionsV8TRANSFERSSvpZ",
+            "mangledName": "$s13NPayFramework7ActionsV8TRANSFERSSvpZ",
+            "moduleName": "NPayFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13NPayFramework7ActionsV8TRANSFERSSvgZ",
+                "mangledName": "$s13NPayFramework7ActionsV8TRANSFERSSvgZ",
+                "moduleName": "NPayFramework",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "WITHDRAW",
+            "printedName": "WITHDRAW",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13NPayFramework7ActionsV8WITHDRAWSSvpZ",
+            "mangledName": "$s13NPayFramework7ActionsV8WITHDRAWSSvpZ",
+            "moduleName": "NPayFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13NPayFramework7ActionsV8WITHDRAWSSvgZ",
+                "mangledName": "$s13NPayFramework7ActionsV8WITHDRAWSSvgZ",
+                "moduleName": "NPayFramework",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "BUY_PHONE_CARD",
+            "printedName": "BUY_PHONE_CARD",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13NPayFramework7ActionsV14BUY_PHONE_CARDSSvpZ",
+            "mangledName": "$s13NPayFramework7ActionsV14BUY_PHONE_CARDSSvpZ",
+            "moduleName": "NPayFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13NPayFramework7ActionsV14BUY_PHONE_CARDSSvgZ",
+                "mangledName": "$s13NPayFramework7ActionsV14BUY_PHONE_CARDSSvgZ",
+                "moduleName": "NPayFramework",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "TOPUP_PHONE_CARD",
+            "printedName": "TOPUP_PHONE_CARD",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13NPayFramework7ActionsV16TOPUP_PHONE_CARDSSvpZ",
+            "mangledName": "$s13NPayFramework7ActionsV16TOPUP_PHONE_CARDSSvpZ",
+            "moduleName": "NPayFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13NPayFramework7ActionsV16TOPUP_PHONE_CARDSSvgZ",
+                "mangledName": "$s13NPayFramework7ActionsV16TOPUP_PHONE_CARDSSvgZ",
+                "moduleName": "NPayFramework",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "HISTORY",
+            "printedName": "HISTORY",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13NPayFramework7ActionsV7HISTORYSSvpZ",
+            "mangledName": "$s13NPayFramework7ActionsV7HISTORYSSvpZ",
+            "moduleName": "NPayFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13NPayFramework7ActionsV7HISTORYSSvgZ",
+                "mangledName": "$s13NPayFramework7ActionsV7HISTORYSSvgZ",
+                "moduleName": "NPayFramework",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "SHOP",
+            "printedName": "SHOP",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13NPayFramework7ActionsV4SHOPSSvpZ",
+            "mangledName": "$s13NPayFramework7ActionsV4SHOPSSvpZ",
+            "moduleName": "NPayFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13NPayFramework7ActionsV4SHOPSSvgZ",
+                "mangledName": "$s13NPayFramework7ActionsV4SHOPSSvgZ",
+                "moduleName": "NPayFramework",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "TOPUP_DATA_CARD",
+            "printedName": "TOPUP_DATA_CARD",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13NPayFramework7ActionsV15TOPUP_DATA_CARDSSvpZ",
+            "mangledName": "$s13NPayFramework7ActionsV15TOPUP_DATA_CARDSSvpZ",
+            "moduleName": "NPayFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13NPayFramework7ActionsV15TOPUP_DATA_CARDSSvgZ",
+                "mangledName": "$s13NPayFramework7ActionsV15TOPUP_DATA_CARDSSvgZ",
+                "moduleName": "NPayFramework",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "BUY_SERVICES_CARD",
+            "printedName": "BUY_SERVICES_CARD",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13NPayFramework7ActionsV17BUY_SERVICES_CARDSSvpZ",
+            "mangledName": "$s13NPayFramework7ActionsV17BUY_SERVICES_CARDSSvpZ",
+            "moduleName": "NPayFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13NPayFramework7ActionsV17BUY_SERVICES_CARDSSvgZ",
+                "mangledName": "$s13NPayFramework7ActionsV17BUY_SERVICES_CARDSSvgZ",
+                "moduleName": "NPayFramework",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13NPayFramework7ActionsV",
+        "mangledName": "$s13NPayFramework7ActionsV",
+        "moduleName": "NPayFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NPayFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NPayFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "NPayFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LibListener",
+        "printedName": "LibListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onLoginSuccessfull",
+            "printedName": "onLoginSuccessfull()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NPayFramework11LibListenerP18onLoginSuccessfullyyF",
+            "mangledName": "$s13NPayFramework11LibListenerP18onLoginSuccessfullyyF",
+            "moduleName": "NPayFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : NPayFramework.LibListener>",
+            "sugared_genericSig": "<Self where Self : NPayFramework.LibListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPaySuccessful",
+            "printedName": "onPaySuccessful()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NPayFramework11LibListenerP15onPaySuccessfulyyF",
+            "mangledName": "$s13NPayFramework11LibListenerP15onPaySuccessfulyyF",
+            "moduleName": "NPayFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : NPayFramework.LibListener>",
+            "sugared_genericSig": "<Self where Self : NPayFramework.LibListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getInfoSuccess",
+            "printedName": "getInfoSuccess(phone:balance:ekycStatus:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NPayFramework11LibListenerP14getInfoSuccess5phone7balance10ekycStatusySS_S2StF",
+            "mangledName": "$s13NPayFramework11LibListenerP14getInfoSuccess5phone7balance10ekycStatusySS_S2StF",
+            "moduleName": "NPayFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : NPayFramework.LibListener>",
+            "sugared_genericSig": "<Self where Self : NPayFramework.LibListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMerchantActionSuccess",
+            "printedName": "getMerchantActionSuccess(actions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NPayFramework11LibListenerP24getMerchantActionSuccess7actionsySaySSG_tF",
+            "mangledName": "$s13NPayFramework11LibListenerP24getMerchantActionSuccess7actionsySaySSG_tF",
+            "moduleName": "NPayFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : NPayFramework.LibListener>",
+            "sugared_genericSig": "<Self where Self : NPayFramework.LibListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(errorCode:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NPayFramework11LibListenerP7onError9errorCode7messageySi_SStF",
+            "mangledName": "$s13NPayFramework11LibListenerP7onError9errorCode7messageySi_SStF",
+            "moduleName": "NPayFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : NPayFramework.LibListener>",
+            "sugared_genericSig": "<Self where Self : NPayFramework.LibListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13NPayFramework11LibListenerP",
+        "mangledName": "$s13NPayFramework11LibListenerP",
+        "moduleName": "NPayFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NPayManager",
+        "printedName": "NPayManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NPayFramework.LibListener?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LibListener",
+                    "printedName": "NPayFramework.LibListener",
+                    "usr": "s:13NPayFramework11LibListenerP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13NPayFramework0A7ManagerC8delegateAA11LibListener_pSgvp",
+            "mangledName": "$s13NPayFramework0A7ManagerC8delegateAA11LibListener_pSgvp",
+            "moduleName": "NPayFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NPayFramework.LibListener?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LibListener",
+                        "printedName": "NPayFramework.LibListener",
+                        "usr": "s:13NPayFramework11LibListenerP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13NPayFramework0A7ManagerC8delegateAA11LibListener_pSgvg",
+                "mangledName": "$s13NPayFramework0A7ManagerC8delegateAA11LibListener_pSgvg",
+                "moduleName": "NPayFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NPayFramework.LibListener?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LibListener",
+                        "printedName": "NPayFramework.LibListener",
+                        "usr": "s:13NPayFramework11LibListenerP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13NPayFramework0A7ManagerC8delegateAA11LibListener_pSgvs",
+                "mangledName": "$s13NPayFramework0A7ManagerC8delegateAA11LibListener_pSgvs",
+                "moduleName": "NPayFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13NPayFramework0A7ManagerC8delegateAA11LibListener_pSgvM",
+                "mangledName": "$s13NPayFramework0A7ManagerC8delegateAA11LibListener_pSgvM",
+                "moduleName": "NPayFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(vController:sdkCfgs:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NPayManager",
+                "printedName": "NPayFramework.NPayManager",
+                "usr": "s:13NPayFramework0A7ManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SDKConfigs",
+                "printedName": "NPayFramework.SDKConfigs",
+                "usr": "s:13NPayFramework10SDKConfigsC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13NPayFramework0A7ManagerC11vController7sdkCfgsACSo06UIViewD0C_AA10SDKConfigsCtcfc",
+            "mangledName": "$s13NPayFramework0A7ManagerC11vController7sdkCfgsACSo06UIViewD0C_AA10SDKConfigsCtcfc",
+            "moduleName": "NPayFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "login",
+            "printedName": "login()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NPayFramework0A7ManagerC5loginyyF",
+            "mangledName": "$s13NPayFramework0A7ManagerC5loginyyF",
+            "moduleName": "NPayFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getActionMerchant",
+            "printedName": "getActionMerchant()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NPayFramework0A7ManagerC17getActionMerchantyyF",
+            "mangledName": "$s13NPayFramework0A7ManagerC17getActionMerchantyyF",
+            "moduleName": "NPayFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openWallet",
+            "printedName": "openWallet(action:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NPayFramework0A7ManagerC10openWallet6actionySS_tF",
+            "mangledName": "$s13NPayFramework0A7ManagerC10openWallet6actionySS_tF",
+            "moduleName": "NPayFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "paymentMerchant",
+            "printedName": "paymentMerchant(urlPayment:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NPayFramework0A7ManagerC15paymentMerchant10urlPaymentySS_tF",
+            "mangledName": "$s13NPayFramework0A7ManagerC15paymentMerchant10urlPaymentySS_tF",
+            "moduleName": "NPayFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openKYC",
+            "printedName": "openKYC()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NPayFramework0A7ManagerC7openKYCyyF",
+            "mangledName": "$s13NPayFramework0A7ManagerC7openKYCyyF",
+            "moduleName": "NPayFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pay",
+            "printedName": "pay(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NPayFramework0A7ManagerC3payyySSF",
+            "mangledName": "$s13NPayFramework0A7ManagerC3payyySSF",
+            "moduleName": "NPayFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "open9PayApp",
+            "printedName": "open9PayApp()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NPayFramework0A7ManagerC11open9PayAppyyF",
+            "mangledName": "$s13NPayFramework0A7ManagerC11open9PayAppyyF",
+            "moduleName": "NPayFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAccountInfo",
+            "printedName": "getAccountInfo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NPayFramework0A7ManagerC14getAccountInfoyyF",
+            "mangledName": "$s13NPayFramework0A7ManagerC14getAccountInfoyyF",
+            "moduleName": "NPayFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "refreshAccessToken",
+            "printedName": "refreshAccessToken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NPayFramework0A7ManagerC18refreshAccessTokenyyF",
+            "mangledName": "$s13NPayFramework0A7ManagerC18refreshAccessTokenyyF",
+            "moduleName": "NPayFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logout",
+            "printedName": "logout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NPayFramework0A7ManagerC6logoutyyF",
+            "mangledName": "$s13NPayFramework0A7ManagerC6logoutyyF",
+            "moduleName": "NPayFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "close",
+            "printedName": "close()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NPayFramework0A7ManagerC5closeyyF",
+            "mangledName": "$s13NPayFramework0A7ManagerC5closeyyF",
+            "moduleName": "NPayFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13NPayFramework0A7ManagerC",
+        "mangledName": "$s13NPayFramework0A7ManagerC",
+        "moduleName": "NPayFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDKConfigs",
+        "printedName": "SDKConfigs",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(merchantCode:uid:brandColor:env:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SDKConfigs",
+                "printedName": "NPayFramework.SDKConfigs",
+                "usr": "s:13NPayFramework10SDKConfigsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EnvironmentKey",
+                "printedName": "NPayFramework.EnvironmentKey",
+                "usr": "s:13NPayFramework14EnvironmentKeyO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13NPayFramework10SDKConfigsC12merchantCode3uid10brandColor3envACSS_S2SAA14EnvironmentKeyOtcfc",
+            "mangledName": "$s13NPayFramework10SDKConfigsC12merchantCode3uid10brandColor3envACSS_S2SAA14EnvironmentKeyOtcfc",
+            "moduleName": "NPayFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getMerchantCode",
+            "printedName": "getMerchantCode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NPayFramework10SDKConfigsC15getMerchantCodeSSyF",
+            "mangledName": "$s13NPayFramework10SDKConfigsC15getMerchantCodeSSyF",
+            "moduleName": "NPayFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUid",
+            "printedName": "getUid()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NPayFramework10SDKConfigsC6getUidSSyF",
+            "mangledName": "$s13NPayFramework10SDKConfigsC6getUidSSyF",
+            "moduleName": "NPayFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBrandColor",
+            "printedName": "getBrandColor()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NPayFramework10SDKConfigsC13getBrandColorSSyF",
+            "mangledName": "$s13NPayFramework10SDKConfigsC13getBrandColorSSyF",
+            "moduleName": "NPayFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13NPayFramework10SDKConfigsC",
+        "mangledName": "$s13NPayFramework10SDKConfigsC",
+        "moduleName": "NPayFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NPayFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NPayFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NPayFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EnvironmentKey",
+        "printedName": "EnvironmentKey",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "stg",
+            "printedName": "stg",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NPayFramework.EnvironmentKey.Type) -> NPayFramework.EnvironmentKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EnvironmentKey",
+                    "printedName": "NPayFramework.EnvironmentKey",
+                    "usr": "s:13NPayFramework14EnvironmentKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NPayFramework.EnvironmentKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EnvironmentKey",
+                        "printedName": "NPayFramework.EnvironmentKey",
+                        "usr": "s:13NPayFramework14EnvironmentKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13NPayFramework14EnvironmentKeyO3stgyA2CmF",
+            "mangledName": "$s13NPayFramework14EnvironmentKeyO3stgyA2CmF",
+            "moduleName": "NPayFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "sandbox",
+            "printedName": "sandbox",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NPayFramework.EnvironmentKey.Type) -> NPayFramework.EnvironmentKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EnvironmentKey",
+                    "printedName": "NPayFramework.EnvironmentKey",
+                    "usr": "s:13NPayFramework14EnvironmentKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NPayFramework.EnvironmentKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EnvironmentKey",
+                        "printedName": "NPayFramework.EnvironmentKey",
+                        "usr": "s:13NPayFramework14EnvironmentKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13NPayFramework14EnvironmentKeyO7sandboxyA2CmF",
+            "mangledName": "$s13NPayFramework14EnvironmentKeyO7sandboxyA2CmF",
+            "moduleName": "NPayFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "production",
+            "printedName": "production",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NPayFramework.EnvironmentKey.Type) -> NPayFramework.EnvironmentKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EnvironmentKey",
+                    "printedName": "NPayFramework.EnvironmentKey",
+                    "usr": "s:13NPayFramework14EnvironmentKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NPayFramework.EnvironmentKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EnvironmentKey",
+                        "printedName": "NPayFramework.EnvironmentKey",
+                        "usr": "s:13NPayFramework14EnvironmentKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13NPayFramework14EnvironmentKeyO10productionyA2CmF",
+            "mangledName": "$s13NPayFramework14EnvironmentKeyO10productionyA2CmF",
+            "moduleName": "NPayFramework"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NPayFramework.EnvironmentKey?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EnvironmentKey",
+                    "printedName": "NPayFramework.EnvironmentKey",
+                    "usr": "s:13NPayFramework14EnvironmentKeyO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13NPayFramework14EnvironmentKeyO8rawValueACSgSS_tcfc",
+            "mangledName": "$s13NPayFramework14EnvironmentKeyO8rawValueACSgSS_tcfc",
+            "moduleName": "NPayFramework",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13NPayFramework14EnvironmentKeyO8rawValueSSvp",
+            "mangledName": "$s13NPayFramework14EnvironmentKeyO8rawValueSSvp",
+            "moduleName": "NPayFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13NPayFramework14EnvironmentKeyO8rawValueSSvg",
+                "mangledName": "$s13NPayFramework14EnvironmentKeyO8rawValueSSvg",
+                "moduleName": "NPayFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13NPayFramework14EnvironmentKeyO",
+        "mangledName": "$s13NPayFramework14EnvironmentKeyO",
+        "moduleName": "NPayFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NPayFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "NPayFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "NPayFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NPayFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "NPayFramework"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/MerchantActionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 527,
+      "length": 13,
+      "value": "\"server_time\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/MerchantActionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 595,
+      "length": 12,
+      "value": "\"error_code\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/MerchantActionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 527,
+      "length": 13,
+      "value": "\"server_time\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/MerchantActionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 595,
+      "length": 12,
+      "value": "\"error_code\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 153,
+      "length": 14,
+      "value": "\"access_token\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 201,
+      "length": 15,
+      "value": "\"refresh_token\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 251,
+      "length": 52,
+      "value": "\"https:\/\/stg-web.wallet.9pay.mobi\/merchant\/payment\/\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 339,
+      "length": 40,
+      "value": "\"https:\/\/sand.9pay.vn\/merchant\/payment\/\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 415,
+      "length": 35,
+      "value": "\"https:\/\/9pay.vn\/merchant\/payment\/\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 480,
+      "length": 21,
+      "value": "\"https:\/\/sdk.9pay.vn\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 533,
+      "length": 26,
+      "value": "\"https:\/\/sand-sdk.9pay.vn\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 591,
+      "length": 27,
+      "value": "\"https:\/\/stg-sdk.9pay.mobi\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 662,
+      "length": 27,
+      "value": "\"https:\/\/stg-api.9pay.mobi\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 721,
+      "length": 25,
+      "value": "\"http:\/\/sand-api.9pay.vn\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 775,
+      "length": 21,
+      "value": "\"https:\/\/api.9pay.vn\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/RefreshTokenModel.swift",
+      "kind": "StringLiteral",
+      "offset": 471,
+      "length": 13,
+      "value": "\"server_time\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/RefreshTokenModel.swift",
+      "kind": "StringLiteral",
+      "offset": 539,
+      "length": 12,
+      "value": "\"error_code\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/RefreshTokenModel.swift",
+      "kind": "StringLiteral",
+      "offset": 471,
+      "length": 13,
+      "value": "\"server_time\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/RefreshTokenModel.swift",
+      "kind": "StringLiteral",
+      "offset": 539,
+      "length": 12,
+      "value": "\"error_code\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/RefreshTokenModel.swift",
+      "kind": "StringLiteral",
+      "offset": 833,
+      "length": 12,
+      "value": "\"token_type\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/RefreshTokenModel.swift",
+      "kind": "StringLiteral",
+      "offset": 877,
+      "length": 19,
+      "value": "\"client_expires_in\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/RefreshTokenModel.swift",
+      "kind": "StringLiteral",
+      "offset": 922,
+      "length": 12,
+      "value": "\"expires_in\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/RefreshTokenModel.swift",
+      "kind": "StringLiteral",
+      "offset": 962,
+      "length": 14,
+      "value": "\"access_token\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/RefreshTokenModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1005,
+      "length": 15,
+      "value": "\"refresh_token\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/RefreshTokenModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1046,
+      "length": 12,
+      "value": "\"public_key\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/RefreshTokenModel.swift",
+      "kind": "StringLiteral",
+      "offset": 833,
+      "length": 12,
+      "value": "\"token_type\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/RefreshTokenModel.swift",
+      "kind": "StringLiteral",
+      "offset": 877,
+      "length": 19,
+      "value": "\"client_expires_in\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/RefreshTokenModel.swift",
+      "kind": "StringLiteral",
+      "offset": 922,
+      "length": 12,
+      "value": "\"expires_in\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/RefreshTokenModel.swift",
+      "kind": "StringLiteral",
+      "offset": 962,
+      "length": 14,
+      "value": "\"access_token\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/RefreshTokenModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1005,
+      "length": 15,
+      "value": "\"refresh_token\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/RefreshTokenModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1046,
+      "length": 12,
+      "value": "\"public_key\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 691,
+      "length": 13,
+      "value": "\"server_time\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 759,
+      "length": 12,
+      "value": "\"error_code\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 691,
+      "length": 13,
+      "value": "\"server_time\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 759,
+      "length": 12,
+      "value": "\"error_code\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1739,
+      "length": 13,
+      "value": "\"referenceID\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1802,
+      "length": 10,
+      "value": "\"is_block\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1837,
+      "length": 11,
+      "value": "\"is_actice\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1873,
+      "length": 11,
+      "value": "\"is_verify\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1910,
+      "length": 11,
+      "value": "\"update_at\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1947,
+      "length": 11,
+      "value": "\"create_at\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2024,
+      "length": 14,
+      "value": "\"is_fun_group\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2064,
+      "length": 12,
+      "value": "\"draft_info\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2103,
+      "length": 13,
+      "value": "\"is_merchant\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2139,
+      "length": 9,
+      "value": "\"hash_id\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2174,
+      "length": 12,
+      "value": "\"refer_code\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2218,
+      "length": 20,
+      "value": "\"is_used_refer_code\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2271,
+      "length": 21,
+      "value": "\"is_show_refer_event\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2316,
+      "length": 10,
+      "value": "\"is_napas\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2350,
+      "length": 10,
+      "value": "\"kyc_type\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2418,
+      "length": 17,
+      "value": "\"noti_non_readed\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2458,
+      "length": 9,
+      "value": "\"qr_code\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2494,
+      "length": 13,
+      "value": "\"verify_user\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2540,
+      "length": 20,
+      "value": "\"user_transfer_link\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2613,
+      "length": 18,
+      "value": "\"status_bank_link\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2694,
+      "length": 23,
+      "value": "\"check_validate_verify\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2745,
+      "length": 14,
+      "value": "\"config_limit\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2787,
+      "length": 14,
+      "value": "\"auto_payment\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1739,
+      "length": 13,
+      "value": "\"referenceID\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1802,
+      "length": 10,
+      "value": "\"is_block\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1837,
+      "length": 11,
+      "value": "\"is_actice\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1873,
+      "length": 11,
+      "value": "\"is_verify\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1910,
+      "length": 11,
+      "value": "\"update_at\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1947,
+      "length": 11,
+      "value": "\"create_at\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2024,
+      "length": 14,
+      "value": "\"is_fun_group\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2064,
+      "length": 12,
+      "value": "\"draft_info\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2103,
+      "length": 13,
+      "value": "\"is_merchant\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2139,
+      "length": 9,
+      "value": "\"hash_id\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2174,
+      "length": 12,
+      "value": "\"refer_code\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2218,
+      "length": 20,
+      "value": "\"is_used_refer_code\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2271,
+      "length": 21,
+      "value": "\"is_show_refer_event\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2316,
+      "length": 10,
+      "value": "\"is_napas\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2350,
+      "length": 10,
+      "value": "\"kyc_type\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2418,
+      "length": 17,
+      "value": "\"noti_non_readed\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2458,
+      "length": 9,
+      "value": "\"qr_code\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2494,
+      "length": 13,
+      "value": "\"verify_user\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2540,
+      "length": 20,
+      "value": "\"user_transfer_link\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2613,
+      "length": 18,
+      "value": "\"status_bank_link\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2694,
+      "length": 23,
+      "value": "\"check_validate_verify\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2745,
+      "length": 14,
+      "value": "\"config_limit\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2787,
+      "length": 14,
+      "value": "\"auto_payment\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
+      "kind": "StringLiteral",
+      "offset": 157,
+      "length": 7,
+      "value": "\"login\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
+      "kind": "StringLiteral",
+      "offset": 201,
+      "length": 13,
+      "value": "\"open_wallet\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 9,
+      "value": "\"deposit\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
+      "kind": "StringLiteral",
+      "offset": 290,
+      "length": 10,
+      "value": "\"transfer\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
+      "kind": "StringLiteral",
+      "offset": 334,
+      "length": 10,
+      "value": "\"withdraw\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
+      "kind": "StringLiteral",
+      "offset": 389,
+      "length": 12,
+      "value": "\"phone_card\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
+      "kind": "StringLiteral",
+      "offset": 443,
+      "length": 13,
+      "value": "\"topup_phone\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
+      "kind": "StringLiteral",
+      "offset": 489,
+      "length": 9,
+      "value": "\"history\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
+      "kind": "StringLiteral",
+      "offset": 528,
+      "length": 6,
+      "value": "\"shop\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
+      "kind": "StringLiteral",
+      "offset": 575,
+      "length": 11,
+      "value": "\"data_card\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
+      "kind": "StringLiteral",
+      "offset": 629,
+      "length": 14,
+      "value": "\"service_card\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 217,
+      "length": 3,
+      "value": "407"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 241,
+      "length": 3,
+      "value": "403"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 265,
+      "length": 5,
+      "value": "10002"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
+      "kind": "StringLiteral",
+      "offset": 698,
+      "length": 9,
+      "value": "\"staging\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
+      "kind": "StringLiteral",
+      "offset": 730,
+      "length": 6,
+      "value": "\"beta\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
+      "kind": "StringLiteral",
+      "offset": 765,
+      "length": 6,
+      "value": "\"prod\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
+      "kind": "StringLiteral",
+      "offset": 901,
+      "length": 11,
+      "value": "\"device_id\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14653,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14678,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14708,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/APIRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 289,
+      "length": 46,
+      "value": "\"https:\/\/jsonplaceholder.typicode.com\/todos\/1\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/APIRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 359,
+      "length": 19,
+      "value": "\"\/sdk\/v2\/user\/info\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/APIRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 402,
+      "length": 29,
+      "value": "\"\/sdk\/v1\/login\/refresh_token\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/APIRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 459,
+      "length": 19,
+      "value": "\"\/sdk\/v1\/func\/list\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Flavor.swift",
+      "kind": "StringLiteral",
+      "offset": 224,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Flavor.swift",
+      "kind": "StringLiteral",
+      "offset": 245,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Flavor.swift",
+      "kind": "StringLiteral",
+      "offset": 269,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 487,
+      "length": 28,
+      "value": "\"https:\/\/stackoverflow.com\/\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 628,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 653,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 711,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

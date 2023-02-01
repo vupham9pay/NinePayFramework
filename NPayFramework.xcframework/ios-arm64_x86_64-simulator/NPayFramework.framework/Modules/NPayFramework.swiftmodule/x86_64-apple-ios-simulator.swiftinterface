@@ -1,0 +1,68 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NPayFramework
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import Foundation
+@_exported import NPayFramework
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+public struct Actions {
+  public static let LOGIN: Swift.String
+  public static let OPEN_WALLET: Swift.String
+  public static let DEPOSIT: Swift.String
+  public static let TRANSFER: Swift.String
+  public static let WITHDRAW: Swift.String
+  public static let BUY_PHONE_CARD: Swift.String
+  public static let TOPUP_PHONE_CARD: Swift.String
+  public static let HISTORY: Swift.String
+  public static let SHOP: Swift.String
+  public static let TOPUP_DATA_CARD: Swift.String
+  public static let BUY_SERVICES_CARD: Swift.String
+}
+public protocol LibListener {
+  func onLoginSuccessfull()
+  func onPaySuccessful()
+  func getInfoSuccess(phone: Swift.String, balance: Swift.String, ekycStatus: Swift.String)
+  func getMerchantActionSuccess(actions: [Swift.String])
+  func onError(errorCode: Swift.Int, message: Swift.String)
+}
+public class NPayManager {
+  public var delegate: NPayFramework.LibListener?
+  public init(vController: UIKit.UIViewController, sdkCfgs: NPayFramework.SDKConfigs)
+  public func login()
+  public func getActionMerchant()
+  public func openWallet(action: Swift.String)
+  public func paymentMerchant(urlPayment: Swift.String)
+  public func openKYC()
+  public func pay(_ orderID: Swift.String)
+  public func open9PayApp()
+  public func getAccountInfo()
+  public func refreshAccessToken()
+  public func logout()
+  public func close()
+  @objc deinit
+}
+public class SDKConfigs {
+  public init(merchantCode: Swift.String, uid: Swift.String, brandColor: Swift.String, env: NPayFramework.EnvironmentKey)
+  public func getMerchantCode() -> Swift.String
+  public func getUid() -> Swift.String
+  public func getBrandColor() -> Swift.String
+  @objc deinit
+}
+public enum EnvironmentKey : Swift.String {
+  case stg
+  case sandbox
+  case production
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension NPayFramework.EnvironmentKey : Swift.Equatable {}
+extension NPayFramework.EnvironmentKey : Swift.Hashable {}
+extension NPayFramework.EnvironmentKey : Swift.RawRepresentable {}
