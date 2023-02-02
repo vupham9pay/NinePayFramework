@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NinePayFramework"
-  spec.version      = "1.1.1"
+  spec.version      = "1.1.2"
   spec.summary      = "A Library for 9Pay's merchant: NinePayFramework."
   spec.homepage     = "https://github.com/vupham9pay/NinePayFramework"
 
@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.deployment_target = "11.0"
   spec.swift_version = "5.6"
-  spec.vendored_libraries = "NPayFramework.xcframework"
+  #spec.vendored_libraries = "NPayFramework.xcframework"
 
   spec.source       = { :git => "https://github.com/vupham9pay/NinePayFramework.git", :tag => "#{spec.version}" }
 
