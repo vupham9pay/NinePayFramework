@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.deployment_target = "11.0"
   spec.swift_version = "5.6"
-  #spec.vendored_libraries = "NPayFramework.xcframework"
+  spec.vendored_libraries = "NPayFramework.xcframework"
 
   spec.source       = { :git => "https://github.com/vupham9pay/NinePayFramework.git", :tag => "#{spec.version}" }
 
