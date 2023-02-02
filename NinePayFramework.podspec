@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NinePayFramework"
-  spec.version      = "1.1.2"
+  spec.version      = "1.1.4"
   spec.summary      = "A Library for 9Pay's merchant: NinePayFramework."
   spec.homepage     = "https://github.com/vupham9pay/NinePayFramework"
 
@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
 
 
 
-  # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  # spec.source_files  = "**/*.{h,swift}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
