@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NinePayFramework"
-  spec.version      = "1.1"
+  spec.version      = "1.1.1"
   spec.summary      = "A Library for 9Pay's merchant: NinePayFramework."
   spec.homepage     = "https://github.com/vupham9pay/NinePayFramework"
 
